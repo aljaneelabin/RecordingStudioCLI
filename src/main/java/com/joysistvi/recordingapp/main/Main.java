@@ -13,14 +13,14 @@ public class Main {
         // ================ CRUD ALBUM ================
         viewAllAlbums();
         createAlbum("Clap Clap Clap", 2019, 7);
-        updateAlbum(6, "Coco (Revised)", 2000, 3 );
-       // deleteAlbum(7);
+        updateAlbum(6, "Coco (Revised)", 2000, 4 );
+        deleteAlbum(11);
 
         // ================ CRUD ARTIST ================
         viewAllArtist();
         createArtist("IV of Spades");
-        updateArtist(6, "IV of Spades");
-        //deleteArtist(6);
+        updateArtist(8, "IV of Spades");
+        deleteArtist(7);
     }
 
     //ducking exception database connection
